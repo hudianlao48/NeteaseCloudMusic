@@ -1,0 +1,27 @@
+.userInfoMini {
+    display: flex;
+    .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        svg {
+            font-size: 3.8rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+    .nickName {
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 60px;
+    }
+}
